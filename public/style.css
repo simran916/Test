@@ -1,0 +1,115 @@
+html {
+  scroll-behavior: smooth;
+  min-width: 100%;
+  overflow-x: hidden;
+  \overflow-y: scroll;
+}
+html::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.navbar{
+  background-color: black!important;
+  padding: 0.4% 0;
+}
+.navbar-toggler{
+  margin: 5%;
+}
+.navbar-brand
+{ padding: 2% 5%;
+  font-size: 3rem;
+}
+.navbar-nav {
+  margin-left: 40%;
+}
+
+.nav-link{
+  font-size: 0.8rem;
+    margin: 0 5px;
+
+}
+
+.navbar:after{
+		background:
+					linear-gradient(-45deg, #fff 10px, transparent 0),
+					linear-gradient(45deg, #fff 10px, transparent  0);
+
+          background-repeat: repeat-x;
+          -webkit-background-size:;
+        background-size: 12px 32px;
+          margin-bottom: 0;
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left:0;
+        width: 100%;
+        height:25px;
+  }
+  .header{
+    margin: 2%;
+  }
+.header-images{
+ height:200px;
+ width:50px;
+    border-radius:1%;
+    padding:2%
+}
+h5{
+  text-align: center;
+  padding-top: 1%;
+}
+.nav-btn{
+  margin-top: -8px;
+}
+.info-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.time{
+  color: grey;
+}
+.footer-container::before{
+  background:
+        linear-gradient(-45deg, #fff 10px, transparent 0),
+        linear-gradient(45deg, #fff 10px, transparent  0);
+
+        background-repeat: repeat-x;
+        -webkit-background-size:;
+      background-size: 12px 32px;
+        margin-bottom: 0;
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left:0;
+      width: 100%;
+      height:25px;
+}
+.footer-section{
+  background-color: black;
+}
+.footer-section:before{
+		background:
+					linear-gradient(-45deg, black 10px, transparent 0),
+					linear-gradient(45deg, black 10px, transparent 0);
+        background-repeat: repeat-x;
+          -webkit-background-size:;
+        background-size: 12px 32px;
+        content: " ";
+        display: block;
+        width: 100%;
+        position: relative;
+        bottom: 28px;
+        left:0;
+
+    height: 28px;
+
+	}
